@@ -31,6 +31,7 @@ body {
 
         .header a {
             text-decoration: none;
+            font-size: 1rem;
             padding: 8px 16px;
             background: #667eea;
             color: white;
@@ -39,7 +40,7 @@ body {
         }
 
         .header a:hover {
-            background: #764ba2;
+            background: turquoise;
         }
 
         .phases {
@@ -75,7 +76,7 @@ body {
             margin-bottom: 20px;
         }
 
-        .btn {
+        .btn, .btn-stop {
             padding: 12px 30px;
             border: none;
             border-radius: 8px;
@@ -97,12 +98,19 @@ body {
             cursor: not-allowed;
         }
 
-        .btn.stop {
+        .card-stop{
+            font-size: 1.2rem;
+            text-align: center;
+            justify-self: center;
+            align-self: center;
+        }
+
+        .btn-stop {
             background: #e74c3c;
         }
 
-        .btn.stop:hover {
-            background: #c0392b;
+        .btn-stop:hover {
+            background: #ff1900;
         }
 
         .canvas-container {
